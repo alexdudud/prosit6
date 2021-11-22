@@ -65,7 +65,7 @@ System::String^ NS_Comp_Svc::CLservices::get_nom(int id)
 	sql = this->oMappTB->updateNom();
 	
 
-	return nom;
+	return "nom";
 }
 
 void NS_Comp_Svc::CLservices::ajouterUneAdresse(System::String^ adresse, System::String^ ville, System::String^ CP, int idClientAdr, int idAdr)

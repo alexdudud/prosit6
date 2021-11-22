@@ -234,9 +234,11 @@ namespace prosit6 {
 			// 
 			// id_text
 			// 
+			this->id_text->Enabled = false;
 			this->id_text->Location = System::Drawing::Point(13, 28);
 			this->id_text->Margin = System::Windows::Forms::Padding(4);
 			this->id_text->Name = L"id_text";
+			this->id_text->ReadOnly = true;
 			this->id_text->Size = System::Drawing::Size(274, 22);
 			this->id_text->TabIndex = 14;
 			this->id_text->TextChanged += gcnew System::EventHandler(this, &MyForm::id_text_TextChanged);
